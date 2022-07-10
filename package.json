@@ -1,0 +1,28 @@
+{
+  "name": "simple_blog",
+  "version": "1.0.0",
+  "description": "simple_blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nethsara/simpleBlog.git"
+  },
+  "author": "siyum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nethsara/simpleBlog.git/issues"
+  },
+  "homepage": "https://github.com/Nethsara/simpleBlog.git#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
